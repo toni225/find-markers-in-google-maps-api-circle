@@ -100,9 +100,9 @@ function initMap() {
     maxZoom: 20,
   });
 
-  var stadium = new google.maps.LatLng(10.31541713515663, 123.97219375737538);
+  var stadium = new google.maps.LatLng(10.314627213771017, 123.95992089216016);
   var avm = new google.maps.LatLng(10.314551983059491, 123.96118258858415);
-  var radius = 2500;
+  var radius = 500;
 
   var marker = new google.maps.Marker({
     position: stadium,
